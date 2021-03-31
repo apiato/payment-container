@@ -1,5 +1,7 @@
 ### Payment Apiato Container
 
+**This container is not fully tested, use with caution.**
+
 An Apiato container which acts as a generic foundation to "plug in" different containers that interacts with specific
 payment gateways (e.g., `PayPal`, `Stripe`, ...)
 
