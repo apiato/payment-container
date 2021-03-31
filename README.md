@@ -8,6 +8,12 @@ payment gateways (e.g., `PayPal`, `Stripe`, ...)
 Installing this container will install "Stripe" payment gateway as well.
 You can look at the Stripe Container as an example and implement your own gateway.
 
+### Installation
+Add this to your  `app/composer.json` then run `composer update`
+```
+"mohammad-alavi/apiato-payment": "^0.1.0"
+```
+
 - [Supported Payment Gateway](#available-payment-gateways)
 - [How to charge users](#how-it-works)
 - [Manage Payment Accounts](#payment-accounts)
@@ -29,6 +35,15 @@ If your payment gateway is not supported, build it and contribute your container
 
 1) Use the `App\Containers\Payment\Traits\ChargeableTrait` on the Model you want to charge and implement the
    `\App\Containers\Payment\Contracts\ChargeableInterface` Interface.
+   <br>
+   <br>
+   Then add this relation on the user model:
+   ```
+   public function paymentAccounts(): HasMany
+   {
+        return $this->hasMany(PaymentAccount::class);
+   }
+   ```
 
 2) To charge a user, the user must first create a payment account (Stripe, PayPal, WePay,...). Use the respective
    endpoints to create those endpoints (`createStripeAccount`, ...). A User may have multiple
