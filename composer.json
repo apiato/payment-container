@@ -1,6 +1,6 @@
 {
     "name": "mohammad-alavi/apiato-payment",
-    "description": "An Apiato container which acts as a generic foundation to \"plug in\" different containers that interacts with specific\npayment gateways (e.g., `PayPal`, `Stripe`, ...)",
+    "description": "An Apiato container which acts as a generic foundation to \"plug in\" different containers that interacts with specific\npayment gateways (e.g., PayPal, Stripe, ...)",
     "type": "apiato-container",
     "license": "MIT",
     "require": {
