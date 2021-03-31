@@ -1,0 +1,17 @@
+{
+    "name": "mohammad-alavi/payment",
+    "description": "An Apiato container which act as an abstract layer for implementing Payment gateways for Apiato",
+    "type": "apiato-container",
+    "license": "MIT",
+    "require": {
+        "mohammad-alavi/laravel-shoppingcart": "^0.1.2",
+        "mohammad-alavi/apiato-stripe-payment-gateway": "^0.1.0"
+    },
+    "extra": {
+        "apiato": {
+            "container": {
+                "name": "Payment"
+            }
+        }
+    }
+}
