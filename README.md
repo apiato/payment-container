@@ -1,6 +1,6 @@
-### Payment Apiato Container
+# Payment [Apiato](https://github.com/apiato/apiato) Container
 
-**This container is not fully tested, use with caution.**
+<span style="color:red">Note:</span> **This container is not fully tested, use with caution.**
 
 An Apiato container which acts as a generic foundation to "plug in" different containers that interacts with specific
 payment gateways (e.g., `PayPal`, `Stripe`, ...)
@@ -8,21 +8,23 @@ payment gateways (e.g., `PayPal`, `Stripe`, ...)
 Installing this container will install "Stripe" payment gateway as well.
 You can look at the Stripe Container as an example and implement your own gateway.
 
-### Installation
-Add this to your  `app/composer.json` then run `composer update`
-```
-"mohammad-alavi/apiato-payment": "^0.1.0"
-```
-This container will be installed in `app/Modules/Payment`
 
-<br>
-
+- [Installation](#installation)
 - [Supported Payment Gateway](#available-payment-gateways)
 - [How to charge users](#how-it-works)
 - [Manage Payment Accounts](#payment-accounts)
 - [Payment Transactions](#payment-transactions)
 - [Developing own Payment Gateway Containers](#payment-gateway-container)
 - [Mocking for Testing](#mocking-the-real-call-for-testing)
+
+<a name="installation"></a>
+## Installation
+Add this to your  `app/composer.json` then run `composer update`
+```
+"mohammad-alavi/apiato-payment": "^0.1.0"
+```
+This container will be installed in `app/Modules/Payment`
+
 
 <a name="available-payment-gateways"></a>
 ## Supported Payment Gateways
