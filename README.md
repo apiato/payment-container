@@ -13,7 +13,7 @@ Add this to your  `app/composer.json` then run `composer update`
 ```
 "mohammad-alavi/apiato-payment": "^0.1.0"
 ```
-Container will be installed in `app/Modules/ContainerName`
+This container will be installed in `app/Modules/Payment`
 
 <br>
 
