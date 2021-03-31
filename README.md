@@ -13,6 +13,9 @@ Add this to your  `app/composer.json` then run `composer update`
 ```
 "mohammad-alavi/apiato-payment": "^0.1.0"
 ```
+Container will be installed in `app/Modules/ContainerName`
+
+<br>
 
 - [Supported Payment Gateway](#available-payment-gateways)
 - [How to charge users](#how-it-works)
