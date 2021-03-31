@@ -1,5 +1,5 @@
 {
-    "name": "mohammad-alavi/payment",
+    "name": "mohammad-alavi/apiato-payment",
     "description": "An Apiato container which act as an abstract layer for implementing Payment gateways for Apiato",
     "type": "apiato-container",
     "license": "MIT",
