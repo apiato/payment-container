@@ -17,7 +17,7 @@
  * }
  */
 
-use App\Modules\Payment\UI\API\Controllers\Controller;
+use App\Containers\VendorSection\Payment\UI\API\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 Route::get('user/paymentaccounts', [Controller::class, 'getAllPaymentAccounts'])

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Payment\Models;
+namespace App\Containers\VendorSection\Payment\Models;
 
 use App\Ship\Parents\Models\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Payment\Actions;
+namespace App\Containers\VendorSection\Payment\Actions;
 
 use Apiato\Core\Foundation\Facades\Apiato;
 use App\Ship\Parents\Actions\Action;

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Modules\Payment\Models;
+namespace App\Containers\VendorSection\Payment\Models;
 
-use App\Modules\Payment\Contracts\PaymentGatewayAccountInterface;
+use App\Containers\VendorSection\Payment\Contracts\PaymentGatewayAccountInterface;
 use App\Ship\Parents\Models\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 

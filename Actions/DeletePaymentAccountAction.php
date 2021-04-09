@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Modules\Payment\Actions;
+namespace App\Containers\VendorSection\Payment\Actions;
 
 use Apiato\Core\Foundation\Facades\Apiato;
-use App\Modules\Payment\UI\API\Requests\DeletePaymentAccountRequest;
+use App\Containers\VendorSection\Payment\UI\API\Requests\DeletePaymentAccountRequest;
 use App\Ship\Parents\Actions\Action;
 
 class DeletePaymentAccountAction extends Action

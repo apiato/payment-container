@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Payment\Contracts;
+namespace App\Containers\VendorSection\Payment\Contracts;
 
 interface PaymentGatewayAccountInterface
 {

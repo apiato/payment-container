@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Modules\Payment\Contracts;
+namespace App\Containers\VendorSection\Payment\Contracts;
 
-use App\Modules\Payment\Models\AbstractPaymentAccount;
-use App\Modules\Payment\Models\PaymentTransaction;
+use App\Containers\VendorSection\Payment\Models\AbstractPaymentAccount;
+use App\Containers\VendorSection\Payment\Models\PaymentTransaction;
 
 interface PaymentChargerInterface
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Modules\Payment\UI\API\Controllers;
+namespace App\Containers\VendorSection\Payment\UI\API\Controllers;
 
 use Apiato\Core\Foundation\Facades\Apiato;
-use App\Modules\Payment\UI\API\Requests\DeletePaymentAccountRequest;
-use App\Modules\Payment\UI\API\Requests\FindPaymentAccountRequest;
-use App\Modules\Payment\UI\API\Requests\GetAllPaymentAccountsRequest;
-use App\Modules\Payment\UI\API\Requests\UpdatePaymentAccountRequest;
-use App\Modules\Payment\UI\API\Transformers\PaymentAccountTransformer;
+use App\Containers\VendorSection\Payment\UI\API\Requests\DeletePaymentAccountRequest;
+use App\Containers\VendorSection\Payment\UI\API\Requests\FindPaymentAccountRequest;
+use App\Containers\VendorSection\Payment\UI\API\Requests\GetAllPaymentAccountsRequest;
+use App\Containers\VendorSection\Payment\UI\API\Requests\UpdatePaymentAccountRequest;
+use App\Containers\VendorSection\Payment\UI\API\Transformers\PaymentAccountTransformer;
 use App\Ship\Parents\Controllers\ApiController;
 use Illuminate\Http\JsonResponse;
 

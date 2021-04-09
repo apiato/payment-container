@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Modules\Payment\Contracts;
+namespace App\Containers\VendorSection\Payment\Contracts;
 
-use App\Modules\Payment\Models\PaymentAccount;
-use App\Modules\Payment\Models\PaymentTransaction;
+use App\Containers\VendorSection\Payment\Models\PaymentAccount;
+use App\Containers\VendorSection\Payment\Models\PaymentTransaction;
 use MohammadAlavi\ShoppingCart\Models\ShoppingCart;
 
 interface ChargeableInterface

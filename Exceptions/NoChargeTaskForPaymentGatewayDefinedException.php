@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Payment\Exceptions;
+namespace App\Containers\VendorSection\Payment\Exceptions;
 
 use App\Ship\Parents\Exceptions\Exception;
 use Symfony\Component\HttpFoundation\Response;

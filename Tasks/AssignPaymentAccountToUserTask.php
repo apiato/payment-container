@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Modules\Payment\Tasks;
+namespace App\Containers\VendorSection\Payment\Tasks;
 
-use App\Modules\Payment\Models\AbstractPaymentAccount;
+use App\Containers\VendorSection\Payment\Models\AbstractPaymentAccount;
 use App\Containers\User\Models\User;
 use App\Ship\Exceptions\CreateResourceFailedException;
 use App\Ship\Parents\Tasks\Task;

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Modules\Payment\Traits;
+namespace App\Containers\VendorSection\Payment\Traits;
 
-use App\Modules\Payment\Gateway\PaymentsGateway;
-use App\Modules\Payment\Models\PaymentAccount;
-use App\Modules\Payment\Models\PaymentTransaction;
+use App\Containers\VendorSection\Payment\Gateway\PaymentsGateway;
+use App\Containers\VendorSection\Payment\Models\PaymentAccount;
+use App\Containers\VendorSection\Payment\Models\PaymentTransaction;
 use Illuminate\Support\Facades\App;
 use MohammadAlavi\ShoppingCart\Models\ShoppingCart;
 

@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Modules\Payment\Gateway;
+namespace App\Containers\VendorSection\Payment\Gateway;
 
-use App\Modules\Payment\Contracts\ChargeableInterface;
-use App\Modules\Payment\Contracts\PaymentChargerInterface;
-use App\Modules\Payment\Exceptions\ChargerTaskDoesNotImplementInterfaceException;
-use App\Modules\Payment\Exceptions\NoChargeTaskForPaymentGatewayDefinedException;
-use App\Modules\Payment\Models\PaymentAccount;
-use App\Modules\Payment\Models\PaymentTransaction;
-use App\Modules\Payment\Tasks\CheckIfPaymentAccountBelongsToUserTask;
+use App\Containers\VendorSection\Payment\Contracts\ChargeableInterface;
+use App\Containers\VendorSection\Payment\Contracts\PaymentChargerInterface;
+use App\Containers\VendorSection\Payment\Exceptions\ChargerTaskDoesNotImplementInterfaceException;
+use App\Containers\VendorSection\Payment\Exceptions\NoChargeTaskForPaymentGatewayDefinedException;
+use App\Containers\VendorSection\Payment\Models\PaymentAccount;
+use App\Containers\VendorSection\Payment\Models\PaymentTransaction;
+use App\Containers\VendorSection\Payment\Tasks\CheckIfPaymentAccountBelongsToUserTask;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 

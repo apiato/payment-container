@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Modules\Payment\Tasks;
+namespace App\Containers\VendorSection\Payment\Tasks;
 
-use App\Modules\Payment\Data\Repositories\PaymentAccountRepository;
+use App\Containers\VendorSection\Payment\Data\Repositories\PaymentAccountRepository;
 use App\Containers\User\Models\User;
 use App\Ship\Criterias\OrderByCreationDateDescendingCriteria;
 use App\Ship\Criterias\ThisUserCriteria;

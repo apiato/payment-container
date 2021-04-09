@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Modules\Payment\Traits;
+namespace App\Containers\VendorSection\Payment\Traits;
 
-use App\Modules\Payment\Models\PaymentTransaction;
+use App\Containers\VendorSection\Payment\Models\PaymentTransaction;
 use App\Modules\Stripe\Tasks\ChargeWithStripeTask;
 
 trait MockablePaymentsTrait
