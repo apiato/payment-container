@@ -1,4 +1,4 @@
-# Payment [Apiato](https://github.com/apiato/apiato) Container
+# [Apiato](https://github.com/apiato/apiato) Payment Container
 
 <span style="color:red">Note:</span> **This container is not fully tested, use with caution.**
 
@@ -23,8 +23,6 @@ Add this to your  `app/composer.json` then run `composer update`
 ```
 "mohammad-alavi/apiato-payment": "^0.1.0"
 ```
-This container will be installed in `app/Modules/Payment`
-
 
 <a name="available-payment-gateways"></a>
 ## Supported Payment Gateways
