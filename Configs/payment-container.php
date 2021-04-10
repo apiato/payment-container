@@ -18,7 +18,7 @@ return [
 
         'stripe' => [
             'container'   => 'Stripe',
-            'charge_task' => App\Modules\Stripe\Tasks\ChargeWithStripeTask::class,
+            'charge_task' => App\Containers\VendorSection\Stripe\Tasks\ChargeWithStripeTask::class,
         ],
 
         'paypal' => [

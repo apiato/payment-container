@@ -3,7 +3,7 @@
 namespace App\Containers\VendorSection\Payment\Traits;
 
 use App\Containers\VendorSection\Payment\Models\PaymentTransaction;
-use App\Modules\Stripe\Tasks\ChargeWithStripeTask;
+use App\Containers\VendorSection\Stripe\Tasks\ChargeWithStripeTask;
 
 trait MockablePaymentsTrait
 {
