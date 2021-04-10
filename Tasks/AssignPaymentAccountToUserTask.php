@@ -3,7 +3,7 @@
 namespace App\Containers\VendorSection\Payment\Tasks;
 
 use App\Containers\VendorSection\Payment\Models\AbstractPaymentAccount;
-use App\Containers\User\Models\User;
+use App\Containers\AppSection\User\Models\User;
 use App\Ship\Exceptions\CreateResourceFailedException;
 use App\Ship\Parents\Tasks\Task;
 use Exception;

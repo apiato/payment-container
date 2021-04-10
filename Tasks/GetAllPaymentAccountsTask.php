@@ -3,7 +3,7 @@
 namespace App\Containers\VendorSection\Payment\Tasks;
 
 use App\Containers\VendorSection\Payment\Data\Repositories\PaymentAccountRepository;
-use App\Containers\User\Models\User;
+use App\Containers\AppSection\User\Models\User;
 use App\Ship\Criterias\OrderByCreationDateDescendingCriteria;
 use App\Ship\Criterias\ThisUserCriteria;
 use App\Ship\Parents\Tasks\Task;

@@ -4,7 +4,7 @@ namespace App\Containers\VendorSection\Payment\Tasks;
 
 use App\Containers\VendorSection\Payment\Exceptions\PaymentAccountDoesNotBelongToUserException;
 use App\Containers\VendorSection\Payment\Models\PaymentAccount;
-use App\Containers\User\Models\User;
+use App\Containers\AppSection\User\Models\User;
 use App\Ship\Parents\Tasks\Task;
 
 class CheckIfPaymentAccountBelongsToUserTask extends Task
