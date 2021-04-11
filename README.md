@@ -27,6 +27,7 @@ You can look at the Stripe Container as an example and implement your own gatewa
 ```
 composer require apiato/payment-container
 ```
+Now run `php artisan migrate`
 
 <a name="available-payment-gateways"></a>
 ## Supported Payment Gateways
