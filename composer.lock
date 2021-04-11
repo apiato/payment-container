@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c263eaaadda043ff460040042b7462eb",
+    "content-hash": "b21682a65c9913818b18b78ee8a3c72c",
     "packages": [
         {
             "name": "apiato/stripe-payment-gateway-container",
-            "version": "v0.1.7",
+            "version": "v0.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/apiato/stripe-payment-gateway-container.git",
-                "reference": "8f30d05ea6cc6762eb89f09c01470b95df5a1abd"
+                "reference": "4aebdb19ff2c8f17d50193cd9d77b48db11e1dd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/apiato/stripe-payment-gateway-container/zipball/8f30d05ea6cc6762eb89f09c01470b95df5a1abd",
-                "reference": "8f30d05ea6cc6762eb89f09c01470b95df5a1abd",
+                "url": "https://api.github.com/repos/apiato/stripe-payment-gateway-container/zipball/4aebdb19ff2c8f17d50193cd9d77b48db11e1dd8",
+                "reference": "4aebdb19ff2c8f17d50193cd9d77b48db11e1dd8",
                 "shasum": ""
             },
             "require": {
@@ -41,9 +41,9 @@
             "description": "Implementation of Stripe gateway for Apiato Payment Container",
             "support": {
                 "issues": "https://github.com/apiato/stripe-payment-gateway-container/issues",
-                "source": "https://github.com/apiato/stripe-payment-gateway-container/tree/v0.1.7"
+                "source": "https://github.com/apiato/stripe-payment-gateway-container/tree/v0.1.8"
             },
-            "time": "2021-04-10T17:50:44+00:00"
+            "time": "2021-04-11T10:54:28+00:00"
         },
         {
             "name": "brick/math",
