@@ -12,7 +12,7 @@ You can look at the Stripe Container as an example and implement your own gatewa
 
 | Container Version  | Apiato Version|
 | -------------------|---------------|
-| ^0.1.10            | ^10.0.0       |
+| `^0.*.*`           | `^10.*.*`     |
 
 - [Installation](#installation)
 - [Supported Payment Gateway](#available-payment-gateways)
