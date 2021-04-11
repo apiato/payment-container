@@ -5,9 +5,14 @@
 An Apiato container which acts as a generic foundation to "plug in" different containers that interacts with specific
 payment gateways (e.g., `PayPal`, `Stripe`, ...)
 
-Installing this container will install "Stripe" payment gateway as well.
+Installing this container will install [Stripe payment gateway](https://github.com/apiato/stripe-payment-gateway-container) container as well.
 You can look at the Stripe Container as an example and implement your own gateway.
 
+#### Compatiblity table
+
+| Container Version  | Apiato Version|
+| -------------------|---------------|
+| ^0.1.10            | ^10.0.0       |
 
 - [Installation](#installation)
 - [Supported Payment Gateway](#available-payment-gateways)
@@ -19,9 +24,8 @@ You can look at the Stripe Container as an example and implement your own gatewa
 
 <a name="installation"></a>
 ## Installation
-Add this to your  `app/composer.json` then run `composer update`
 ```
-"mohammad-alavi/apiato-payment": "^0.1.0"
+composer require apiato/payment-container
 ```
 
 <a name="available-payment-gateways"></a>
@@ -36,11 +40,10 @@ If your payment gateway is not supported, build it and contribute your container
 <a name="how-it-works"></a>
 ## How to charge users?
 
-1) Use the `App\Containers\Payment\Traits\ChargeableTrait` on the Model you want to charge and implement the
-   `\App\Containers\Payment\Contracts\ChargeableInterface` Interface.
-   <br>
-   <br>
-   Then add this relation on the user model:
+1. On the Model you want to charge:
+   1. Use the `App\Containers\Payment\Traits\ChargeableTrait` 
+   1. add the `\App\Containers\Payment\Contracts\ChargeableInterface` Interface
+   1. Then add this relation
    ```
    public function paymentAccounts(): HasMany
    {
