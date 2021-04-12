@@ -29,6 +29,12 @@ composer require apiato/payment-container
 ```
 Now run `php artisan migrate`
 
+**For any supported gateway you want to use, set Tokens and Secrets in the `.env`**
+```
+STRIPE_KEY=
+STRIPE_SECRET=
+```
+
 <a name="available-payment-gateways"></a>
 ## Supported Payment Gateways
 
