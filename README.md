@@ -29,12 +29,6 @@ composer require apiato/payment-container
 ```
 Now run `php artisan migrate`
 
-**For any supported gateway you want to use, set Tokens and Secrets in the `.env`**
-```
-STRIPE_KEY=
-STRIPE_SECRET=
-```
-
 <a name="available-payment-gateways"></a>
 ## Supported Payment Gateways
 
@@ -43,6 +37,12 @@ Currently, Apiato Supports the following payment gateways:
 * `Stripe`
 
 If your payment gateway is not supported, build it and contribute your container back.
+
+**For any supported gateway you want to use, set Tokens and Secrets in the `.env`**
+```
+STRIPE_KEY=
+STRIPE_SECRET=
+```
 
 <a name="how-it-works"></a>
 ## How to charge users?
