@@ -5,7 +5,6 @@ namespace App\Containers\VendorSection\Payment\Traits;
 use App\Containers\VendorSection\Payment\Gateway\PaymentsGateway;
 use App\Containers\VendorSection\Payment\Models\PaymentAccount;
 use App\Containers\VendorSection\Payment\Models\PaymentTransaction;
-use Illuminate\Support\Facades\App;
 use MohammadAlavi\ShoppingCart\Models\ShoppingCart;
 
 trait ChargeableTrait
@@ -38,8 +37,6 @@ trait ChargeableTrait
 
     public function charge(PaymentAccount $account, $amount, $currency = null): PaymentTransaction
     {
-        $transaction = App::make(PaymentsGateway::class)->charge($this, $account, $amount, $currency);
-
-        return $transaction;
+	    return app(PaymentsGateway::class)->charge($this, $account, $amount, $currency);
     }
 }

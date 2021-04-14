@@ -2,7 +2,6 @@
 
 namespace App\Containers\VendorSection\Payment\UI\API\Controllers;
 
-use Apiato\Core\Foundation\Facades\Apiato;
 use App\Containers\VendorSection\Payment\Actions\DeletePaymentAccountAction;
 use App\Containers\VendorSection\Payment\Actions\FindPaymentAccountDetailsAction;
 use App\Containers\VendorSection\Payment\Actions\GetAllPaymentAccountsAction;
@@ -19,25 +18,25 @@ class Controller extends ApiController
 {
 	public function getAllPaymentAccounts(GetAllPaymentAccountsRequest $request): array
 	{
-		$paymentAccounts = Apiato::call(GetAllPaymentAccountsAction::class);
+		$paymentAccounts = app(GetAllPaymentAccountsAction::class)->run();
 		return $this->transform($paymentAccounts, PaymentAccountTransformer::class);
 	}
 
 	public function getPaymentAccount(FindPaymentAccountRequest $request): array
 	{
-		$paymentAccount = Apiato::call(FindPaymentAccountDetailsAction::class, [$request]);
+		$paymentAccount = app(FindPaymentAccountDetailsAction::class)->run($request);
 		return $this->transform($paymentAccount, PaymentAccountTransformer::class);
 	}
 
 	public function updatePaymentAccount(UpdatePaymentAccountRequest $request): array
 	{
-		$paymentAccount = Apiato::call(UpdatePaymentAccountAction::class, [$request]);
+		$paymentAccount = app(UpdatePaymentAccountAction::class)->run($request);
 		return $this->transform($paymentAccount, PaymentAccountTransformer::class);
 	}
 
 	public function deletePaymentAccount(DeletePaymentAccountRequest $request): JsonResponse
 	{
-		Apiato::call(DeletePaymentAccountAction::class, [$request]);
+		app(DeletePaymentAccountAction::class)->run($request);
 		return $this->noContent();
 	}
 }

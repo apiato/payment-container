@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b21682a65c9913818b18b78ee8a3c72c",
+    "content-hash": "e38e0043980d8dee244d7a7d410b17de",
     "packages": [
         {
             "name": "apiato/stripe-payment-gateway-container",
-            "version": "v0.1.8",
+            "version": "v0.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/apiato/stripe-payment-gateway-container.git",
-                "reference": "4aebdb19ff2c8f17d50193cd9d77b48db11e1dd8"
+                "reference": "cbe854cdb25b7f85a4649dde1dc5aede1755f901"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/apiato/stripe-payment-gateway-container/zipball/4aebdb19ff2c8f17d50193cd9d77b48db11e1dd8",
-                "reference": "4aebdb19ff2c8f17d50193cd9d77b48db11e1dd8",
+                "url": "https://api.github.com/repos/apiato/stripe-payment-gateway-container/zipball/cbe854cdb25b7f85a4649dde1dc5aede1755f901",
+                "reference": "cbe854cdb25b7f85a4649dde1dc5aede1755f901",
                 "shasum": ""
             },
             "require": {
@@ -41,9 +41,9 @@
             "description": "Implementation of Stripe gateway for Apiato Payment Container",
             "support": {
                 "issues": "https://github.com/apiato/stripe-payment-gateway-container/issues",
-                "source": "https://github.com/apiato/stripe-payment-gateway-container/tree/v0.1.8"
+                "source": "https://github.com/apiato/stripe-payment-gateway-container/tree/v0.1.9"
             },
-            "time": "2021-04-11T10:54:28+00:00"
+            "time": "2021-04-14T15:41:08+00:00"
         },
         {
             "name": "brick/math",
@@ -830,16 +830,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.36.2",
+            "version": "v8.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "0debd8ad6b5aa1f61ccc73910adf049af4ca0444"
+                "reference": "cf4082973abc796ec285190f0603380021f6d26f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/0debd8ad6b5aa1f61ccc73910adf049af4ca0444",
-                "reference": "0debd8ad6b5aa1f61ccc73910adf049af4ca0444",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/cf4082973abc796ec285190f0603380021f6d26f",
+                "reference": "cf4082973abc796ec285190f0603380021f6d26f",
                 "shasum": ""
             },
             "require": {
@@ -994,7 +994,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-04-07T12:37:22+00:00"
+            "time": "2021-04-13T13:49:49+00:00"
         },
         {
             "name": "league/commonmark",
@@ -4756,12 +4756,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "aa48fe959b0236eede9c51a38f47df2bb81ef137"
+                "reference": "7cc7126a8a1c71197c85c04b147b24257393cd11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/aa48fe959b0236eede9c51a38f47df2bb81ef137",
-                "reference": "aa48fe959b0236eede9c51a38f47df2bb81ef137",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/7cc7126a8a1c71197c85c04b147b24257393cd11",
+                "reference": "7cc7126a8a1c71197c85c04b147b24257393cd11",
                 "shasum": ""
             },
             "conflict": {
@@ -4924,6 +4924,7 @@
                 "propel/propel1": ">=1,<=1.7.1",
                 "pterodactyl/panel": "<0.7.19|>=1-rc.0,<=1-rc.6",
                 "pusher/pusher-php-server": "<2.2.1",
+                "pwweb/laravel-core": "<=0.3.6-beta",
                 "rainlab/debugbar-plugin": "<3.1",
                 "robrichards/xmlseclibs": "<3.0.4",
                 "sabberworm/php-css-parser": ">=1,<1.0.1|>=2,<2.0.1|>=3,<3.0.1|>=4,<4.0.1|>=5,<5.0.9|>=5.1,<5.1.3|>=5.2,<5.2.1|>=6,<6.0.2|>=7,<7.0.4|>=8,<8.0.1|>=8.1,<8.1.1|>=8.2,<8.2.1|>=8.3,<8.3.1",
@@ -4931,8 +4932,9 @@
                 "scheb/two-factor-bundle": ">=0,<3.26|>=4,<4.11",
                 "sensiolabs/connect": "<4.2.3",
                 "serluck/phpwhois": "<=4.2.6",
-                "shopware/core": "<=6.3.4",
-                "shopware/platform": "<=6.3.5.1",
+                "shopware/core": "<=6.3.5.2",
+                "shopware/platform": "<=6.3.5.2",
+                "shopware/production": "<=6.3.5.2",
                 "shopware/shopware": "<5.6.9",
                 "silverstripe/admin": ">=1.0.3,<1.0.4|>=1.1,<1.1.1",
                 "silverstripe/assets": ">=1,<1.4.7|>=1.5,<1.5.2",
@@ -5089,7 +5091,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-09T08:01:23+00:00"
+            "time": "2021-04-13T16:02:59+00:00"
         }
     ],
     "aliases": [],

@@ -25,7 +25,7 @@ You can look at the Stripe Container as an example and implement your own gatewa
 <a name="installation"></a>
 ## Installation
 ```
-composer require apiato/payment-container
+composer require apiato/vendorSection-payment
 ```
 Now run `php artisan migrate`
 
@@ -141,8 +141,8 @@ distributed via the `Payment` container. This interface, in turn, requires you t
 
 This method needs to connect to the `FooService`, create the payment and return a `PaymentTransaction` model.
 
-Finally, you need to `register` the new service. This can be done in the `Payment\Configs\payment-container.php` file.
-For the `payment-container.gateways` key, add the new entry for your `Foo` Payment Gateway. This may look like this:
+Finally, you need to `register` the new service. This can be done in the `Payment\Configs\vendorSection-payment.php` file.
+For the `vendorSection-payment.gateways` key, add the new entry for your `Foo` Payment Gateway. This may look like this:
 
 ```php
     // ...
