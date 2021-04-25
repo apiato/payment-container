@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Containers\VendorSection\Payment\Actions;
+namespace App\Containers\Vendor\Payment\Actions;
 
 use App\Containers\AppSection\Authentication\Tasks\GetAuthenticatedUserTask;
-use App\Containers\VendorSection\Payment\Tasks\CheckIfPaymentAccountBelongsToUserTask;
-use App\Containers\VendorSection\Payment\Tasks\DeletePaymentAccountTask;
-use App\Containers\VendorSection\Payment\Tasks\FindPaymentAccountByIdTask;
-use App\Containers\VendorSection\Payment\UI\API\Requests\DeletePaymentAccountRequest;
+use App\Containers\Vendor\Payment\Tasks\CheckIfPaymentAccountBelongsToUserTask;
+use App\Containers\Vendor\Payment\Tasks\DeletePaymentAccountTask;
+use App\Containers\Vendor\Payment\Tasks\FindPaymentAccountByIdTask;
+use App\Containers\Vendor\Payment\UI\API\Requests\DeletePaymentAccountRequest;
 use App\Ship\Parents\Actions\Action;
 
 class DeletePaymentAccountAction extends Action

@@ -5,7 +5,7 @@
     "license": "MIT",
     "require": {
         "mohammad-alavi/laravel-shoppingcart": "^0.1.2",
-        "apiato/stripe-payment-gateway-container": "^0.1.9"
+        "apiato/stripe-payment-gateway-container": "^1.0.0"
     }
     ,
     "require-dev": {

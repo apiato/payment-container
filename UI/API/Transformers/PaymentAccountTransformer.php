@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Containers\VendorSection\Payment\UI\API\Transformers;
+namespace App\Containers\Vendor\Payment\UI\API\Transformers;
 
-use App\Containers\VendorSection\Payment\Models\PaymentAccount;
+use App\Containers\Vendor\Payment\Models\PaymentAccount;
 use App\Ship\Parents\Transformers\Transformer;
 
 class PaymentAccountTransformer extends Transformer

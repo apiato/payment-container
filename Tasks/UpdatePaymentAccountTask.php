@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Containers\VendorSection\Payment\Tasks;
+namespace App\Containers\Vendor\Payment\Tasks;
 
-use App\Containers\VendorSection\Payment\Data\Repositories\PaymentAccountRepository;
-use App\Containers\VendorSection\Payment\Models\PaymentAccount;
+use App\Containers\Vendor\Payment\Data\Repositories\PaymentAccountRepository;
+use App\Containers\Vendor\Payment\Models\PaymentAccount;
 use App\Ship\Exceptions\UpdateResourceFailedException;
 use App\Ship\Parents\Tasks\Task;
 use Exception;

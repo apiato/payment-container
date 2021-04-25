@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Containers\VendorSection\Payment\Traits;
+namespace App\Containers\Vendor\Payment\Traits;
 
-use App\Containers\VendorSection\Payment\Gateway\PaymentsGateway;
-use App\Containers\VendorSection\Payment\Models\PaymentAccount;
-use App\Containers\VendorSection\Payment\Models\PaymentTransaction;
+use App\Containers\Vendor\Payment\Gateway\PaymentsGateway;
+use App\Containers\Vendor\Payment\Models\PaymentAccount;
+use App\Containers\Vendor\Payment\Models\PaymentTransaction;
 use MohammadAlavi\ShoppingCart\Models\ShoppingCart;
 
 trait ChargeableTrait

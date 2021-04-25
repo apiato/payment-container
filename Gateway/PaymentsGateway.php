@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Containers\VendorSection\Payment\Gateway;
+namespace App\Containers\Vendor\Payment\Gateway;
 
-use App\Containers\VendorSection\Payment\Contracts\ChargeableInterface;
-use App\Containers\VendorSection\Payment\Contracts\PaymentChargerInterface;
-use App\Containers\VendorSection\Payment\Exceptions\ChargerTaskDoesNotImplementInterfaceException;
-use App\Containers\VendorSection\Payment\Exceptions\NoChargeTaskForPaymentGatewayDefinedException;
-use App\Containers\VendorSection\Payment\Models\PaymentAccount;
-use App\Containers\VendorSection\Payment\Models\PaymentTransaction;
-use App\Containers\VendorSection\Payment\Tasks\CheckIfPaymentAccountBelongsToUserTask;
+use App\Containers\Vendor\Payment\Contracts\ChargeableInterface;
+use App\Containers\Vendor\Payment\Contracts\PaymentChargerInterface;
+use App\Containers\Vendor\Payment\Exceptions\ChargerTaskDoesNotImplementInterfaceException;
+use App\Containers\Vendor\Payment\Exceptions\NoChargeTaskForPaymentGatewayDefinedException;
+use App\Containers\Vendor\Payment\Models\PaymentAccount;
+use App\Containers\Vendor\Payment\Models\PaymentTransaction;
+use App\Containers\Vendor\Payment\Tasks\CheckIfPaymentAccountBelongsToUserTask;
 
 class PaymentsGateway
 {
@@ -21,7 +21,7 @@ class PaymentsGateway
 
 		$typedAccount = $account->accountable;
 
-		$chargerTaskTaskName = config('vendorSection-payment.gateways.' . $typedAccount->getPaymentGatewaySlug() . '.charge_task', null);
+		$chargerTaskTaskName = config('vendor-payment.gateways.' . $typedAccount->getPaymentGatewaySlug() . '.charge_task', null);
 
 		if ($chargerTaskTaskName === null) {
 			throw new NoChargeTaskForPaymentGatewayDefinedException();

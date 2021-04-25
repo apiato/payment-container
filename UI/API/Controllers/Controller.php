@@ -1,16 +1,16 @@
 <?php
 
-namespace App\Containers\VendorSection\Payment\UI\API\Controllers;
+namespace App\Containers\Vendor\Payment\UI\API\Controllers;
 
-use App\Containers\VendorSection\Payment\Actions\DeletePaymentAccountAction;
-use App\Containers\VendorSection\Payment\Actions\FindPaymentAccountDetailsAction;
-use App\Containers\VendorSection\Payment\Actions\GetAllPaymentAccountsAction;
-use App\Containers\VendorSection\Payment\Actions\UpdatePaymentAccountAction;
-use App\Containers\VendorSection\Payment\UI\API\Requests\DeletePaymentAccountRequest;
-use App\Containers\VendorSection\Payment\UI\API\Requests\FindPaymentAccountRequest;
-use App\Containers\VendorSection\Payment\UI\API\Requests\GetAllPaymentAccountsRequest;
-use App\Containers\VendorSection\Payment\UI\API\Requests\UpdatePaymentAccountRequest;
-use App\Containers\VendorSection\Payment\UI\API\Transformers\PaymentAccountTransformer;
+use App\Containers\Vendor\Payment\Actions\DeletePaymentAccountAction;
+use App\Containers\Vendor\Payment\Actions\FindPaymentAccountDetailsAction;
+use App\Containers\Vendor\Payment\Actions\GetAllPaymentAccountsAction;
+use App\Containers\Vendor\Payment\Actions\UpdatePaymentAccountAction;
+use App\Containers\Vendor\Payment\UI\API\Requests\DeletePaymentAccountRequest;
+use App\Containers\Vendor\Payment\UI\API\Requests\FindPaymentAccountRequest;
+use App\Containers\Vendor\Payment\UI\API\Requests\GetAllPaymentAccountsRequest;
+use App\Containers\Vendor\Payment\UI\API\Requests\UpdatePaymentAccountRequest;
+use App\Containers\Vendor\Payment\UI\API\Transformers\PaymentAccountTransformer;
 use App\Ship\Parents\Controllers\ApiController;
 use Illuminate\Http\JsonResponse;
 

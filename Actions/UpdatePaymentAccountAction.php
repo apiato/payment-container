@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Containers\VendorSection\Payment\Actions;
+namespace App\Containers\Vendor\Payment\Actions;
 
 use App\Containers\AppSection\Authentication\Tasks\GetAuthenticatedUserTask;
-use App\Containers\VendorSection\Payment\Models\PaymentAccount;
-use App\Containers\VendorSection\Payment\Tasks\CheckIfPaymentAccountBelongsToUserTask;
-use App\Containers\VendorSection\Payment\Tasks\FindPaymentAccountByIdTask;
-use App\Containers\VendorSection\Payment\Tasks\UpdatePaymentAccountTask;
-use App\Containers\VendorSection\Payment\UI\API\Requests\UpdatePaymentAccountRequest;
+use App\Containers\Vendor\Payment\Models\PaymentAccount;
+use App\Containers\Vendor\Payment\Tasks\CheckIfPaymentAccountBelongsToUserTask;
+use App\Containers\Vendor\Payment\Tasks\FindPaymentAccountByIdTask;
+use App\Containers\Vendor\Payment\Tasks\UpdatePaymentAccountTask;
+use App\Containers\Vendor\Payment\UI\API\Requests\UpdatePaymentAccountRequest;
 use App\Ship\Parents\Actions\Action;
 
 class UpdatePaymentAccountAction extends Action

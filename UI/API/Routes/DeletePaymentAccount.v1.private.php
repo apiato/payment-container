@@ -18,7 +18,7 @@
  * }
  */
 
-use App\Containers\VendorSection\Payment\UI\API\Controllers\Controller;
+use App\Containers\Vendor\Payment\UI\API\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 Route::delete('user/paymentaccounts/{id}', [Controller::class, 'deletePaymentAccount'])

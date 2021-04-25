@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Containers\VendorSection\Payment\Actions;
+namespace App\Containers\Vendor\Payment\Actions;
 
 use App\Containers\AppSection\Authentication\Tasks\GetAuthenticatedUserTask;
-use App\Containers\VendorSection\Payment\Tasks\GetAllPaymentAccountsTask;
+use App\Containers\Vendor\Payment\Tasks\GetAllPaymentAccountsTask;
 use App\Ship\Parents\Actions\Action;
 
 class GetAllPaymentAccountsAction extends Action

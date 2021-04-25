@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Containers\VendorSection\Payment\Traits;
+namespace App\Containers\Vendor\Payment\Traits;
 
-use App\Containers\VendorSection\Payment\Models\PaymentTransaction;
-use App\Containers\VendorSection\Stripe\Tasks\ChargeWithStripeTask;
+use App\Containers\Vendor\Payment\Models\PaymentTransaction;
+use App\Containers\Vendor\Stripe\Tasks\ChargeWithStripeTask;
 
 trait MockablePaymentsTrait
 {

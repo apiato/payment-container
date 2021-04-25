@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Containers\VendorSection\Payment\Tasks;
+namespace App\Containers\Vendor\Payment\Tasks;
 
-use App\Containers\VendorSection\Payment\Exceptions\PaymentAccountDoesNotBelongToUserException;
-use App\Containers\VendorSection\Payment\Models\PaymentAccount;
+use App\Containers\Vendor\Payment\Exceptions\PaymentAccountDoesNotBelongToUserException;
+use App\Containers\Vendor\Payment\Models\PaymentAccount;
 use App\Containers\AppSection\User\Models\User;
 use App\Ship\Parents\Tasks\Task;
 
